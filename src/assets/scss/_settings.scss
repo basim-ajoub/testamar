@@ -75,6 +75,10 @@ $foundation-palette: (
   warning: #ffae00,
   alert: #cc4b37,
 );
+$sky-blue: #90bbc1;
+$dark-blue:#476c89;
+$light-black:#2a2c33;
+$whit:#fefefe;
 $light-gray: #e6e6e6;
 $medium-gray: #cacaca;
 $dark-gray: #8a8a8a;
@@ -82,7 +86,9 @@ $black: #0a0a0a;
 $white: #fefefe;
 $body-background: $white;
 $body-font-color: $black;
-$body-font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
+$body-font-family: 'Fresca', sans-serif;
+$title-font-family: 'Kaushan Script', cursive;
+$head-font-family:'Rampart One', cursive;
 $body-safe-padding: false;
 $body-antialiased: true;
 $global-margin: 1rem;

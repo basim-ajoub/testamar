@@ -1,150 +1,128 @@
-    <div class="grid-container">
-      <div class="grid-x grid-padding-x">
-        <div class="large-12 cell">
-          <h1>Welcome to Foundation</h1>
+<link href="https://fonts.googleapis.com/css2?family=Fresca&family=Kaushan+Script&family=Rampart+One&display=swap"
+      rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<div class="grid-x nav-bar">
+    <div class="cell large-6 medium-6 small-12 grid-x">
+        <figure class="cell large-2 medium-3 small-3 logo-container">
+            <img src="./assets/img/amar-logo.png">
+        </figure>
+        <div class="cell large-7 medium-9 small-9 logo-name">
+            <h3>AMAR</h3>
+            <p>Unsere Vielseitigkeit ist unsere Stärke</p>
         </div>
-      </div>
-
-      <div class="grid-x grid-padding-x">
-        <div class="large-12 cell">
-          <div class="callout">
-            <h3>We&rsquo;re stoked you want to try Foundation! </h3>
-            <p>To get going, this file (index.html) includes some basic styles you can modify, play around with, or totally destroy to get going.</p>
-            <p>Once you've exhausted the fun in this document, you should check out:</p>
-            <div class="grid-x grid-padding-x">
-              <div class="large-4 medium-4 medium-push-2 cell">
-                <p><a href="https://get.foundation/sites/docs/">Foundation Documentation</a><br />Everything you need to know about using the framework.</p>
-              </div>
-              <div class="large-4 medium-4 medium-push-2 cell">
-                <p><a href="https://github.com/foundation/foundation-emails/discussions">Foundation Forum</a><br />Join the Foundation community to ask a question or show off your knowlege.</p>
-              </div>
-            </div>
-            <div class="grid-x grid-padding-x">
-              <div class="large-4 medium-4 medium-push-2 cell">
-                <p><a href="http://github.com/foundation/foundation-sites">Foundation on Github</a><br />Latest code, issue reports, feature requests and more.</p>
-              </div>
-              <div class="large-4 medium-4 medium-pull-2 cell">
-                <p><a href="https://twitter.com/FoundationCSS">@FoundationCSS</a><br />Ping us on Twitter if you have questions. When you build something with this we'd love to see it (and send you a totally boss sticker).</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="grid-x grid-padding-x">
-        <div class="large-8 medium-8 cell">
-          <h5>Here&rsquo;s your basic grid:</h5>
-          <!-- Grid Example -->
-
-          <div class="grid-x grid-padding-x">
-            <div class="large-12 cell">
-              <div class="primary callout">
-                <p><strong>This is a twelve cell section in a grid-x.</strong> Each of these includes a div.callout element so you can see where the cell are - it's not required at all for the grid.</p>
-              </div>
-            </div>
-          </div>
-          <div class="grid-x grid-padding-x">
-            <div class="large-6 medium-6 cell">
-              <div class="primary callout">
-                <p>Six cell</p>
-              </div>
-            </div>
-            <div class="large-6 medium-6 cell">
-              <div class="primary callout">
-                <p>Six cell</p>
-              </div>
-            </div>
-          </div>
-          <div class="grid-x grid-padding-x">
-            <div class="large-4 medium-4 small-4 cell">
-              <div class="primary callout">
-                <p>Four cell</p>
-              </div>
-            </div>
-            <div class="large-4 medium-4 small-4 cell">
-              <div class="primary callout">
-                <p>Four cell</p>
-              </div>
-            </div>
-            <div class="large-4 medium-4 small-4 cell">
-              <div class="primary callout">
-                <p>Four cell</p>
-              </div>
-            </div>
-          </div>
-
-          <hr />
-
-          <h5>We bet you&rsquo;ll need a form somewhere:</h5>
-          <form>
-            <div class="grid-x grid-padding-x">
-              <div class="large-12 cell">
-                <label>Input Label</label>
-                <input type="text" placeholder="large-12.cell" />
-              </div>
-            </div>
-            <div class="grid-x grid-padding-x">
-              <div class="large-4 medium-4 cell">
-                <label>Input Label</label>
-                <input type="text" placeholder="large-4.cell" />
-              </div>
-              <div class="large-4 medium-4 cell">
-                <label>Input Label</label>
-                <input type="text" placeholder="large-4.cell" />
-              </div>
-              <div class="large-4 medium-4 cell">
-                <div class="grid-x">
-                  <label>Input Label</label>
-                  <div class="input-group">
-                    <input type="text" placeholder="small-9.cell" class="input-group-field" />
-                    <span class="input-group-label">.com</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="grid-x grid-padding-x">
-              <div class="large-12 cell">
-                <label>Select Box</label>
-                <select>
-                  <option value="husker">Husker</option>
-                  <option value="starbuck">Starbuck</option>
-                  <option value="hotdog">Hot Dog</option>
-                  <option value="apollo">Apollo</option>
-                </select>
-              </div>
-            </div>
-            <div class="grid-x grid-padding-x">
-              <div class="large-6 medium-6 cell">
-                <label>Choose Your Favorite</label>
-                <input type="radio" name="pokemon" value="Red" id="pokemonRed"><label for="pokemonRed">Radio 1</label>
-                <input type="radio" name="pokemon" value="Blue" id="pokemonBlue"><label for="pokemonBlue">Radio 2</label>
-              </div>
-              <div class="large-6 medium-6 cell">
-                <label>Check these out</label>
-                <input id="checkbox1" type="checkbox"><label for="checkbox1">Checkbox 1</label>
-                <input id="checkbox2" type="checkbox"><label for="checkbox2">Checkbox 2</label>
-              </div>
-            </div>
-            <div class="grid-x grid-padding-x">
-              <div class="large-12 cell">
-                <label>Textarea Label</label>
-                <textarea placeholder="small-12.cell"></textarea>
-              </div>
-            </div>
-          </form>
-        </div>
-
-        <div class="large-4 medium-4 cell">
-          <h5>Try one of these buttons:</h5>
-          <p><a href="#" class="button">Simple Button</a><br/>
-            <a href="#" class="success button">Success Btn</a><br/>
-            <a href="#" class="alert button">Alert Btn</a><br/>
-            <a href="#" class="secondary button">Secondary Btn</a></p>
-          <div class="callout">
-            <h5>So many components, girl!</h5>
-            <p>A whole kitchen sink of goodies comes with Foundation. Check out the docs to see them all, along with details on making them your own.</p>
-            <a href="https://get.foundation/sites/docs/" class="small button">Go to Foundation Docs</a>
-          </div>
-        </div>
-      </div>
     </div>
+
+    <div class="menu-nav cell large-6 medium-6 small-12 grid-x">
+        <a href="#home" class="cell menu-link large-2 medium-3 small-3">
+            Home
+        </a>
+        <a href="#about" class="cell menu-link large-2 medium-3 small-3">
+            About
+        </a>
+        <a href="#services"  class="cell menu-link large-2  medium-3 small-3">
+            Leistungen
+        </a>
+        <a href="#galarie" class="cell menu-link large-2 medium-3 small-3">
+            Galarie
+        </a>
+    </div>
+</div>
+<div  class="orbit header-slider-box" role="region" aria-label="Favorite Text Ever" data-orbit>
+    <ul  class="orbit-container">
+        <button class="orbit-previous" aria-label="previous"><span class="show-for-sr">Previous Slide</span>&#9664;
+        </button>
+        <button class="orbit-next" aria-label="next"><span class="show-for-sr">Next Slide</span>&#9654;</button>
+        <div class="slider-bg"></div>
+        <li id="services" class="is-active orbit-slide slide-1">
+            <div class="docs-example-orbit-slide">
+                <h3><strong>This is dodgerblue</strong></h3>
+                <p>Lorem ipsum dolor sit .</p>
+            </div>
+        </li>
+        <li class="orbit-slide slide-2">
+            <div class="docs-example-orbit-slide">
+                <h3><strong>Spachtel</strong></h3>
+                <p>Standardverspachtelung im Trockenbau üblich.</p>
+            </div>
+        </li>
+        <li class="orbit-slide slide-3">
+            <div class="docs-example-orbit-slide">
+                <h3><strong>Parkett, Laminat</strong></h3>
+                <p>Verlegung von Laminat und Fertigparkett. </p>
+            </div>
+        </li>
+        <li class="orbit-slide slide-4">
+            <div class="docs-example-orbit-slide">
+                <h3><strong>Trockenbau</strong></h3>
+                <p>Erstellung von Gipskarton-Trennwänden und Wandverkleidungen.</p>
+            </div>
+        </li>
+    </ul>
+    <nav class="orbit-bullets">
+        <button class="is-active" data-slide="0">
+            <span class="show-for-sr">First slide details.</span>
+            <span class="show-for-sr" data-slide-active-label>Current Slide</span>
+        </button>
+        <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
+        <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
+        <button data-slide="3"><span class="show-for-sr">Fourth slide details.</span></button>
+    </nav>
+</div>
+<!--Start services-->
+<h1 class="width-100 section-title"><strong>Leistungen</strong> <img class="title-logo"
+                                                                     src="./assets/img/amar-logo.png"></h1>
+<div class="grid-x grid-margin-x services-container" data-equalizer data-equalize-on="medium" id="test-eq">
+   {{>service}}
+
+</div>
+<!--End services-->
+<!-- Start our work -->
+<h1 id="galarie" class="width-100 section-title"><strong>Current Work</strong> <img class="title-logo"
+                                                                               src="./assets/img/amar-logo.png"></h1>
+<div class="grid-x our-work large-up-2">
+    <figure class="cell galarie-img-box">
+        <img class="galarie-img" src="./assets/img/parkett-17.jpg">
+    </figure>
+    <div class="cell our-work-description">
+        <h4 class="">Parket Lorem Iposm</h4>
+        <p class="">Lorem Iposm Lorem Iposm Lorem Iposm Lorem Iposm Lorem Iposm Lorem Iposm Lorem Iposm Lorem Iposm Lorem Iposm Lorem Iposm</p>
+    </div>
+</div>
+<!-- End our work -->
+<!--Start galarie-->
+
+<h1 id="galarie" class="width-100 section-title"><strong>Galarie</strong> <img class="title-logo"
+                                                                     src="./assets/img/amar-logo.png"></h1>
+<div class="grid-container galarie-container">
+    <div class="button-group round">
+        <button class="button hollow filter-simple-button is-active" data-filter="all">All</button>
+        <button class="button hollow filter-simple-button" data-filter="spachtel">Spachtel</button>
+        <button class="button hollow filter-simple-button" data-filter="trocken-bau">Trocken-bau</button>
+        <button class="button hollow filter-simple-button" data-filter="parkett">Parkett</button>
+        <button class="button hollow filter-simple-button" data-filter="boden">Boden</button>
+        <button class="button hollow filter-simple-button" data-filter="fliesenlege">Fliesenlege</button>
+    </div>
+    <div class="grid-x galarie-box">
+            {{>galarieimg}}
+    </div>
+</div>
+<!--End Galarie-->
+<!--Start Footer-->
+<div class="grid-x footer">
+    <div class="cell large-4 small-12  footer-logo grid-x">
+        <figure class="cell large-3 medium-4 small-4 logo-container">
+            <img src="./assets/img/amar-logo.png">
+        </figure>
+        <div class="cell large-7 medium-8 small-8 logo-name">
+            <h3>AMAR</h3>
+            <p>Unsere Vielseitigkeit ist unsere Stärke</p>
+        </div>
+    </div>
+    <div class="cell large-offset-5 large-3 footer-contact grid-x">
+        <ul class="cell large-12 medium-12 small-12 contact-list">
+            <li class="list-item contact-phone"><i class='fa fa-phone'></i><a class="contact-text" href="tel: 00491743796045" target="_blank">+49 174 3796045</a></li>
+            <li class="list-item contact-email"><i class="fa fa-envelope"></i><a class="contact-text" href="mailto: info@amar-trockenbau.de" target="_blank">info@amar-trockenbau.de</a></li>
+            <li class="list-item contact-social"><a class="social-icon instagram" href="#"><i class="fa fa-instagram"></i></a><a class="social-icon telegram" href="#"><i class="fa fa-telegram"></i></a><a href="#" class="social-icon"><i class="fa fa-facebook-f"></i></a></li>
+        </ul>
+    </div>
+</div>

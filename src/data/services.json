@@ -1,0 +1,26 @@
+[
+  {
+    "serName": "Trockenbau",
+    "servDesc": "Pellentesque habitant morbi tristique senectus et netus et,ante.",
+    "servImg": "service-1.jpg",
+    "servBackground": "services-1"
+  },
+  {
+    "serName": "Spachtel",
+    "servDesc": "Standardverspachtelung im Trockenbau üblich.",
+    "servImg": "service-2.jpeg",
+    "servBackground": "services-2"
+  },
+  {
+    "serName": "Parkett, Laminat",
+    "servDesc": "Verlegung von Laminat und Fertigparkett Verlegung CV Belägen,Verlegung von Venyl.",
+    "servImg": "service-3.jpg",
+    "servBackground": "services-3"
+  },
+  {
+    "serName": "Fliesenlege",
+    "servDesc": "Verlegung von Laminat und Fertigparkett Verlegung CV Belägen,Verlegung von Venyl.",
+    "servImg": "service-3.jpg",
+    "servBackground": "services-3"
+  }
+]
